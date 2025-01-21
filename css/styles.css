@@ -3,17 +3,17 @@ body {
     margin: 10px;
 }
 
-/* class selector */
-/* .highlight{
-    background-color: yellow;
-} */
-
-/* atribute selector href */
-a[href^="https"][href*="google"][href$=".com"] {
+/* relational selector */
+#products > p {
     color: orange;
 }
 
-/* ID selector */
-/* #header{
-    font-size: 2em;
+/* paragraph after */
+/* #products + p {
+    color: orange;
 } */
+
+/* all paragraphs that come after products section */
+#products ~ p {
+    color: orange;
+}
