@@ -1,0 +1,19 @@
+/* type selector */
+body {
+    margin: 10px;
+}
+
+/* class selector */
+/* .highlight{
+    background-color: yellow;
+} */
+
+/* atribute selector href */
+a[href^="https"][href*="google"][href$=".com"] {
+    color: orange;
+}
+
+/* ID selector */
+/* #header{
+    font-size: 2em;
+} */
