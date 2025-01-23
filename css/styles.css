@@ -2,26 +2,23 @@
 body {
     margin: 10px;
 }
-
-/* pseudo-class selector */
-article p:first-of-type {
+/* pseudo-element */
+p::first-letter{
     font-size: 140%;
-    font-style: italic;
-}
-
-article p:last-of-type {
     font-weight: bold;
 }
 
-ul li:nth-child(3n)
-{
-    color: deeppink;
+p::first-line{
+    font-weight: bold;
 }
 
-a:visited, a:link {
-    color: dodgerblue;
+/* any element that is selected will have pink background */
+::selection{
+    background-color: pink;
 }
 
-a:hover, a:focus {
-    color: pink;
+p::after{
+    content: '...';
+    /* block level element */
+    display: block; 
 }
