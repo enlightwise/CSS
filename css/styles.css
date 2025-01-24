@@ -7,11 +7,5 @@ body {
 .box {
     width: 200px;
     height: 200px;
-    background-color: hsl(53, 100%, 77%);
+    background: linear-gradient(to bottom right, dodgerblue, yellow, tomato);
 }
-
-/* .box {
-    width: 200px;
-    height: 200px;
-    background-color: rgba(230, 205, 16, 0.5);
-} */
