@@ -1,14 +1,17 @@
-/* type selector */
 body {
     margin: 10px;
 }
 
-p {
-    color: dodgerblue;
-    border: 1px solid black;
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(53, 100%, 77%);
 }
 
-strong {
-    color: initial;
-    border: inherit;
-}
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(230, 205, 16, 0.5);
+} */
