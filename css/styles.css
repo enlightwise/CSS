@@ -8,4 +8,8 @@ body {
     width: 200px;
     height: 200px;
     background: linear-gradient(to bottom right, dodgerblue, yellow, tomato);
+    border: 10px dashed royalblue;
+    border-top: 20px solid royalblue;
+    border-width: 10px 20px 10px 20px;
+    border-radius: 20px;
 }
