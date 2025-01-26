@@ -1,16 +1,5 @@
-body {
-    margin: 10px;
-}
-
-
-.box {
-    width: 200px;
-    height: 200px;
-    background: dodgerblue;
-    box-shadow: 10px, 0px 20px grey;
-}
-
-h1 {
-    color: white;
-    text-shadow: 3px 3x 5px rgba(0,0,0,0.2);
+p {
+    /* padding: 10px 20px; */
+    margin: 20px 20px;
+    border: 5px solid gold;
 }
