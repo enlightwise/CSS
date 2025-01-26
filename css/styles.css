@@ -3,13 +3,14 @@ body {
 }
 
 
-
 .box {
     width: 200px;
     height: 200px;
-    background: linear-gradient(to bottom right, dodgerblue, yellow, tomato);
-    border: 10px dashed royalblue;
-    border-top: 20px solid royalblue;
-    border-width: 10px 20px 10px 20px;
-    border-radius: 20px;
+    background: dodgerblue;
+    box-shadow: 10px, 0px 20px grey;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3x 5px rgba(0,0,0,0.2);
 }
